@@ -1,26 +1,50 @@
 package SRC;
 
 public class Author {
-    private string name ;
- private string phoneNumber;
- private string authorId;
- public string getAuthorId() {
-     return authorId;
- }
- public void setAuthorId(string authorId) {
-     
-     this.authorId = authorId;
- }
- public string getName() {
-     return name;
- }
- public void setName(string name) {
-     this.name = name;
- }
- public string getPhoneNumber() {
-     return phoneNumber;
- }
- public void setPhoneNumber(string phoneNumber) {
-     this.phoneNumber = phoneNumber;
- }
+    private String name ;
+    private String phoneNumber;
+    private String authorId;
+    private String birthDate;
+    private String deathDate;
+
+    public String getAuthorId() {
+        return authorId;
+    }
+
+    public void setAuthorId(String authorId) {
+        this.authorId = authorId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public String getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public String getDeathDate() {
+        return deathDate;
+    }
+
+    public void setDeathDate(String deathDate) {
+        this.deathDate = deathDate;
+    }
+
 }
